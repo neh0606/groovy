@@ -1,0 +1,16 @@
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&family=Zilla+Slab:wght@300;400;500;600;700&display=swap");
+
+
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+// import other Scss //
+// @import "./mixins.scss";
+@import "./layout/Header.scss";
+@import "./pages/Product.scss";
